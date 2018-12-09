@@ -4,8 +4,8 @@ import hmac
 import hashlib
 from urllib.parse import urlencode
 import time
-secret = '98993e91e56ee93e605c2bbf11f62d3d'
-key='B4C68774679B819C5CF8C500418860E5'
+secret = 'secret'
+key='key'
 
 
 method = {'method':'getInfo','nonce':str(int(time.time())) }
